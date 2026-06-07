@@ -1,6 +1,6 @@
 Sonolbot universal security-hardened package
 Version: 0.1.17
-Created: 2026-06-07T12:59:41Z
+Created: 2026-06-07T13:59:58Z
 Binary mode: garble
 Server artifacts included: 0
 
@@ -10,14 +10,14 @@ Package layout:
 - macos-amd64: obfuscated macOS Intel console/panel.
 
 Component SHA256:
-dffc5a7fb2ec59964cd3a724dd3fffabc74304720d0f671906ebf71cc154d8e2  windows-amd64/sonolbot-go-client/sonolbot-client.exe
-c6fa24a5df372d0ed627f42ad05e751f9620e59900bf8529f3d33da43ffb41f5  windows-amd64/sonolbot-go-client/sonolbot-control-panel.exe
+5196d70d88f334a08fce5881f80a9c5382869283fcbe752fd6f699714417bfbe  windows-amd64/sonolbot-go-client/sonolbot-client.exe
+8485280451374dad244cc66dfc19ee6bad5ad68fbad8949d5dbc7c805304bc8a  windows-amd64/sonolbot-go-client/sonolbot-control-panel.exe
 cb16567a65a0a66f6ea3e5fd9f461ee8c3ff077e76af5de27039b431b8cd6ce7  windows-amd64/sonolbot-go-client/sonolbot-client-linux-amd64
 cb16567a65a0a66f6ea3e5fd9f461ee8c3ff077e76af5de27039b431b8cd6ce7  windows-amd64/sonolbot-go-client/sonolbot-client-linux-amd64-0.1.17
-cbca2c5cf14f89a9395d09794f903e05a9fb4af0e792521e00d4a4a7f3622eec  macos-arm64/sonolbot-go-client/sonolbot-client
-cbca2c5cf14f89a9395d09794f903e05a9fb4af0e792521e00d4a4a7f3622eec  macos-arm64/sonolbot-go-client/sonolbot-control-panel
-71303db3c41489bbd6e9840e3dbf2707259f36429382ed95453153c46380d307  macos-amd64/sonolbot-go-client/sonolbot-client
-71303db3c41489bbd6e9840e3dbf2707259f36429382ed95453153c46380d307  macos-amd64/sonolbot-go-client/sonolbot-control-panel
+2524d6009a61dde3338447e7eac512a3fa1fb054936948ffaf72535f7ac4a4f4  macos-arm64/sonolbot-go-client/sonolbot-client
+2524d6009a61dde3338447e7eac512a3fa1fb054936948ffaf72535f7ac4a4f4  macos-arm64/sonolbot-go-client/sonolbot-control-panel
+07178831df90d0e54f27891b5f9c3c1f66d1917ebb98eb24c73cc8298f28cedb  macos-amd64/sonolbot-go-client/sonolbot-client
+07178831df90d0e54f27891b5f9c3c1f66d1917ebb98eb24c73cc8298f28cedb  macos-amd64/sonolbot-go-client/sonolbot-control-panel
 
 Notes:
 - This package excludes local secrets, bot config, runtime state, logs, tasks, developer-only docs, codemap output, and server artifact staging.
