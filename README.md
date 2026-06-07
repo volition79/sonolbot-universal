@@ -2,14 +2,21 @@
 
 Windows와 macOS용 Sonolbot 보안강화 배포 패키지입니다.
 
-일반 사용자는 소스코드를 빌드하지 말고 GitHub Releases에서
-`sonolbot_universal.zip`을 다운로드하세요.
+일반 사용자는 소스코드를 빌드하지 말고 아래 직접 다운로드 링크에서
+`sonolbot_universal.zip`을 받으세요.
 
-## 다운로드
+## 바로 다운로드
 
-- 최신 릴리스: https://github.com/volition79/sonolbot-universal/releases/latest
+- Sonolbot Universal 다운로드:
+  https://github.com/volition79/sonolbot-universal/releases/latest/download/sonolbot_universal.zip
+- 체크섬:
+  https://github.com/volition79/sonolbot-universal/releases/latest/download/SHA256SUMS.txt
+- 릴리스 페이지:
+  https://github.com/volition79/sonolbot-universal/releases/latest
 - 현재 버전: `0.1.17`
-- 패키지 파일: `sonolbot_universal.zip`
+
+이 저장소는 수동 최초 설치용 최신 패키지를 제공하는 곳입니다.
+설치 후 새 버전 확인과 업데이트는 Sonolbot 내부 업데이트 확인 기능을 사용하세요.
 
 ## 실행 순서
 
@@ -68,4 +75,3 @@ xattr -dr com.apple.quarantine .
 ## 무결성 확인
 
 릴리스의 `SHA256SUMS.txt` 또는 이 저장소의 `SHA256SUMS.txt`를 확인하세요.
-
