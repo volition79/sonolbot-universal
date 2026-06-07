@@ -1,0 +1,25 @@
+Sonolbot universal security-hardened package
+Version: 0.1.17
+Created: 2026-06-07T08:53:51Z
+Binary mode: garble
+Server artifacts included: 0
+
+Package layout:
+- windows-amd64: obfuscated Windows console/panel plus obfuscated Linux WSL bridge.
+- macos-arm64: obfuscated macOS Apple Silicon console/panel.
+- macos-amd64: obfuscated macOS Intel console/panel.
+
+Component SHA256:
+397274a99c2cfb7e42ed6415e185cde8401950a115772e86756a14fa1345f20c  windows-amd64/sonolbot-go-client/sonolbot-client.exe
+31afb9aa4fbeb282adb31b3f1c9da71af2ff19605856649875c5a6da9039af7e  windows-amd64/sonolbot-go-client/sonolbot-control-panel.exe
+c9057794031d77beaaafc723091eb96397d561ec245e5422bd3b3afb3172432e  windows-amd64/sonolbot-go-client/sonolbot-client-linux-amd64
+c9057794031d77beaaafc723091eb96397d561ec245e5422bd3b3afb3172432e  windows-amd64/sonolbot-go-client/sonolbot-client-linux-amd64-0.1.17
+a0596312dd35ea1317bd32aae01abf20c415f8c24dc503cbd1171def46a95e34  macos-arm64/sonolbot-go-client/sonolbot-client
+a0596312dd35ea1317bd32aae01abf20c415f8c24dc503cbd1171def46a95e34  macos-arm64/sonolbot-go-client/sonolbot-control-panel
+ca436b4bdf01626b963479bc325e4071e90a777e32b5def3012325f07255783b  macos-amd64/sonolbot-go-client/sonolbot-client
+ca436b4bdf01626b963479bc325e4071e90a777e32b5def3012325f07255783b  macos-amd64/sonolbot-go-client/sonolbot-control-panel
+
+Notes:
+- This package excludes local secrets, bot config, runtime state, logs, tasks, developer-only docs, codemap output, and server artifact staging.
+- macOS notarization is not applied. Use the README quarantine guidance for internal/small-user distribution.
+- Windows and Linux/WSL version output for obfuscated binaries should be verified on matching hosts before server activation.
