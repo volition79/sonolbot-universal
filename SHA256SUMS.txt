@@ -1,1 +1,1 @@
-ab2150d95f12517d24d309bb7aac543af3b1cb986a8761c571515cf7b758209d  sonolbot_universal.zip
+bf702dc6daea5e26ff4cbf0be54e1d0d22b096cb5069d2010feb36810e0e9b1f  sonolbot_universal.zip

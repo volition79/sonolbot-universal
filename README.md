@@ -13,7 +13,7 @@ Windows와 macOS용 Sonolbot 보안강화 배포 패키지입니다.
   https://github.com/volition79/sonolbot-universal/releases/latest/download/SHA256SUMS.txt
 - 릴리스 페이지:
   https://github.com/volition79/sonolbot-universal/releases/latest
-- 현재 버전: `0.1.18`
+- 현재 버전: `0.1.19`
 
 이 저장소는 수동 최초 설치용 최신 패키지를 제공하는 곳입니다.
 설치 후 새 버전 확인과 업데이트는 Sonolbot 내부 업데이트 확인 기능을 사용하세요.

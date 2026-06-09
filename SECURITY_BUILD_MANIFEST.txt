@@ -1,6 +1,6 @@
 Sonolbot universal security-hardened package
-Version: 0.1.18
-Created: 2026-06-09T07:25:09Z
+Version: 0.1.19
+Created: 2026-06-09T08:06:53Z
 Binary mode: garble
 Server artifacts included: 0
 
@@ -10,14 +10,14 @@ Package layout:
 - macos-amd64: obfuscated macOS Intel console/panel.
 
 Component SHA256:
-c072ba60275511d60378b16771bc5a14d2676df11c0c0b755542ed43986df466  windows-amd64/sonolbot-go-client/sonolbot-client.exe
-66353965efc1278cd9006e6ee876ce13deabf9676be9887eccf46547b8941c1b  windows-amd64/sonolbot-go-client/sonolbot-control-panel.exe
-ff6ac4c01cfb87b59e04af77c7935a3b9d57548790c5dd6774bfbd43db3fc8e1  windows-amd64/sonolbot-go-client/sonolbot-client-linux-amd64
-ff6ac4c01cfb87b59e04af77c7935a3b9d57548790c5dd6774bfbd43db3fc8e1  windows-amd64/sonolbot-go-client/sonolbot-client-linux-amd64-0.1.18
-664c24ce0e969ba316deb545774be1c0254ab0c4f3e27f30d205f5395c035706  macos-arm64/sonolbot-go-client/sonolbot-client
-664c24ce0e969ba316deb545774be1c0254ab0c4f3e27f30d205f5395c035706  macos-arm64/sonolbot-go-client/sonolbot-control-panel
-86a641c79cf6d91ba0752c0850be7404fdde7912f4aa528eec401c1e6c21c519  macos-amd64/sonolbot-go-client/sonolbot-client
-86a641c79cf6d91ba0752c0850be7404fdde7912f4aa528eec401c1e6c21c519  macos-amd64/sonolbot-go-client/sonolbot-control-panel
+dc075fba2f2befa1b0ca535e5b4ecf636a9f6c5eeba5c739dc607ac2f11e89db  windows-amd64/sonolbot-go-client/sonolbot-client.exe
+0771cdd6031e7aecfccf6e03eedef5cfb37014fa883aa94b7614e03aaadf4722  windows-amd64/sonolbot-go-client/sonolbot-control-panel.exe
+9a9d1f67570139b6457415961be4ac63c8f292feb78501451a2c073e585ddfca  windows-amd64/sonolbot-go-client/sonolbot-client-linux-amd64
+9a9d1f67570139b6457415961be4ac63c8f292feb78501451a2c073e585ddfca  windows-amd64/sonolbot-go-client/sonolbot-client-linux-amd64-0.1.19
+e4542b5fdc248df866decfbfd2f5c3cd2b2300b20eabf48ae8fc07f5aedb4b10  macos-arm64/sonolbot-go-client/sonolbot-client
+e4542b5fdc248df866decfbfd2f5c3cd2b2300b20eabf48ae8fc07f5aedb4b10  macos-arm64/sonolbot-go-client/sonolbot-control-panel
+1c416332b626c565921b766e7ea853d3e99751875ef8be74c694271512dd8885  macos-amd64/sonolbot-go-client/sonolbot-client
+1c416332b626c565921b766e7ea853d3e99751875ef8be74c694271512dd8885  macos-amd64/sonolbot-go-client/sonolbot-control-panel
 
 Notes:
 - This package excludes local secrets, bot config, runtime state, logs, tasks, developer-only docs, codemap output, and server artifact staging.
