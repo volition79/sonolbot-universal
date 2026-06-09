@@ -82,6 +82,9 @@ xattr -dr com.apple.quarantine .
 Claude Code를 쓸 경우 `./3.코덱스로그인.command` 대신 또는 추가로 `./4.클로드코드로그인.command`를 실행하세요.
 `./5.제미나이로그인.command`는 현재 사용하지 않으므로 실행하지 않아도 됩니다.
 
+macOS 컨트롤패널에서는 `업데이트 확인`, `이전 소놀봇 가져오기`가 화면 최상단 메뉴바와 패널 내부 `관리` 영역에 함께 표시됩니다.
+자동시작을 켜면 사용자 `~/Library/LaunchAgents`에 등록되어 다음 로그인부터 패널과 데몬 자동 시작에 사용됩니다.
+
 ## macOS Gatekeeper 안내
 
 현재 패키지는 Apple notarization을 적용하지 않은 내부/소수 사용자용 배포입니다.
