@@ -14,7 +14,7 @@ Windows와 macOS용 Sonolbot 보안강화 배포 패키지입니다.
 - 릴리스 페이지:
   https://github.com/volition79/sonolbot-universal/releases/latest
 - 현재 버전: `0.1.19`
-- 현재 zip SHA256: `b21ebd41349f1db8979667a6073144a7d645a2e926aaa3455a86c0375bec79a7`
+- 현재 zip SHA256: `b6222af6833ba6c9563b3d894474931a96c72a764004c90b31de26db386c3d1c`
 
 이 저장소는 수동 최초 설치용 최신 패키지를 제공하는 곳입니다.
 설치 후 새 버전 확인과 업데이트는 Sonolbot 내부 업데이트 확인 기능을 사용하세요.

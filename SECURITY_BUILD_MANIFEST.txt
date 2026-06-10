@@ -1,6 +1,6 @@
 Sonolbot universal security-hardened package
 Version: 0.1.19
-Created: 2026-06-10T12:03:36Z
+Created: 2026-06-10T12:18:02Z
 Binary mode: garble
 Server artifacts included: 0
 
