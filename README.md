@@ -10,7 +10,7 @@ Windows와 macOS용 Sonolbot 보안강화 배포 패키지입니다.
 - Sonolbot Universal 다운로드:
   https://github.com/volition79/sonolbot-universal/releases/latest/download/sonolbot_universal.zip
 - 체크섬:
-  https://github.com/volition79/sonolbot-universal/releases/latest/download/SHA256SUMS.txt
+  https://raw.githubusercontent.com/volition79/sonolbot-universal/main/SHA256SUMS.txt
 - 릴리스 페이지:
   https://github.com/volition79/sonolbot-universal/releases/latest
 - 현재 버전: `0.1.21`
